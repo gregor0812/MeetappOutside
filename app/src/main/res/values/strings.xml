@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MeetappOutside</string>
+    <string name="welcome_text">Welcome</string>
+    <string name="username_text">Fill in your username</string>
+    <string name="password_text">Fill in your password </string>
+    <string name="login_button">Login</string>
+    <string name="login_error_username_blank">"Please fill in a username</string>
+    <string name="login_error_username_too_short">Username is too short</string>
+    <string name="login_error_password_blank">Please fill in a password</string>
+    <string name="login_error_password_too_short">Password is too short</string>
+    <string name="register_email">Enter your desired email here</string>
+    <string name="register_username">Enter your desired username here</string>
+    <string name="register_password">Enter your desired password here</string>
+    <string name="register_button">Register</string>
+    <string name="back_button">back</string>
+    <string name="register_here_button">Register here</string>
+</resources>
+
