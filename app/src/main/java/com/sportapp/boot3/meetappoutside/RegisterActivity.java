@@ -11,11 +11,12 @@ import android.widget.EditText;
  * Created by Delug on 23/03/2017.
  */
 
-public class Register extends AppCompatActivity {
+public class RegisterActivity extends AppCompatActivity {
 
     EditText etName, etMail, etPassword;
     String name, email, password;
     Button btnRegister;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,9 +32,9 @@ public class Register extends AppCompatActivity {
                 name = etName.getText().toString();
                 email = etMail.getText().toString();
                 password = etPassword.getText().toString();
-                String task = "Register";
-                BackgroundTask backgroundTask = new BackgroundTask(Register.this);
-                BackGroundTask.execute(task,name,email,password);
+                String task = "register";
+                BackgroundTask backgroundTask = new BackgroundTask(RegisterActivity.this);
+                backgroundTask.execute(task,name, email, password);
                 finish();
 
             }
